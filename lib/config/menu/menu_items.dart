@@ -16,6 +16,7 @@ final IconData icon;
 }
   const appMenuItems = <MenuItem> [
   
+  // Estas son las opciones en el menú de la aplicación.
     MenuItem(
      title: 'Botones',
      subtitle: 'Varios botones en Flutter',
@@ -29,6 +30,16 @@ final IconData icon;
      link: '/cards',
      icon: Icons.credit_card
     ),
+
+
+     MenuItem(
+     title: 'ProgressIndicators',
+     subtitle: 'Generales y controlados',
+     link: '/progress',
+     icon: Icons.refresh_rounded
+    ),
+
+
 
   ];
 
